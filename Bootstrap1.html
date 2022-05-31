@@ -10,11 +10,12 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- navbar -->
     <nav
-      class="navbar navbar-expand-lg navbar-light"
+      class="navbar navbar-expand-lg navbar-light py-3"
       style="background-color: #7ab8e4"
     >
       <div class="container">
@@ -51,7 +52,7 @@
     <section class="p-5 text-center" style="background-color: #7ab8e4">
       <div class="container">
         <div class="wrapper d-lg-flex align-items-center">
-          <div class="left pe-md-5">
+          <div class="left pe-md-5 me-md-2 me-lg-3 me-xl-5">
             <h1 class="text-lg-start">
               Experience an amazing<span class="text-primary"> adventure</span>
             </h1>
@@ -75,7 +76,30 @@
         </div>
       </div>
     </section>
-
+    <!-- end of secion 1 -->
+    <!-- newsletter section -->
+    <section class="newsletter text-light" style="background-color: #2d30f5">
+      <div class="container">
+        <div
+          class="wrapper py-4 d-md-flex align-items-center justify-content-between"
+        >
+          <h4 class="text-center text-md-start mb-3 mb-md-0">
+            Sign up for our newsletter
+          </h4>
+          <div class="input-group newsletter-input">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your e-mail"
+              aria-label="Your e-mail"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-dark" type="button">Button</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
