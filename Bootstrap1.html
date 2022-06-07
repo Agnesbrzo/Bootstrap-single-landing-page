@@ -56,7 +56,7 @@
       </div>
     </nav>
     <!-- end of navbar -->
-    <!-- section 1 -->
+    <!-- section 1 header-->
     <section class="py-5 text-center" style="background-color: #7ab8e4">
       <div class="container">
         <div class="wrapper d-lg-flex align-items-center">
@@ -69,12 +69,90 @@
               ipsa asperiores odio reprehenderit maiores minus distinctio
               explicabo, adipisci laborum?
             </p>
+            <!-- Button form -->
             <button
               type="button"
               class="btn btn-primary btn-lg px-5 mt-xl-4 d-lg-block"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
             >
               Enroll
             </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="enroll"
+              tabindex="-1"
+              aria-labelledby="enrollLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Write to us</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput2" class="form-label"
+                        >Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput2"
+                        placeholder="Your name"
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label
+                        for="exampleFormControlTextarea1"
+                        class="form-label"
+                        >Write your message</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-bs-dismiss="modal"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <img
             class="img-fluid w-50 rounded-5 d-none d-lg-block"
